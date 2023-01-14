@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -14,8 +17,13 @@ img {
 button {
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   background: #eee;
+  padding: 11px;
+  font-size: 15px;
+
+
+  
 }
 
 input {
@@ -24,4 +32,79 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  margin-top: -16px;
+}
+
+/*  text-decoration: none; */
+
+.header {
+  display: flex;  
+  justify-content: space-between;
+  
+  
+}
+
+.left-links {
+display: flex;
+gap: 15px;
+margin: 15px;
+color: rgb(129, 127, 127);
+
+}
+
+.right-links{
+display: flex;  
+gap: 15px;
+margin: 15px;
+color: rgb(129, 127, 127);
+}
+
+.bottomleft-links {
+  display: flex;
+  gap: 15px;
+  margin: 15px;
+  color: rgb(129, 127, 127);
+  
+  }
+  
+.bottomright-links{
+  display: flex;  
+  gap: 15px;
+  margin: 15px;
+  color: rgb(129, 127, 127);
+  }
+
+a {
+  all: unset;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin: -15px 20px;
+  padding: 10px;
+  gap: 30px;
+
+
+}
+
+.button-holder {
+
+ 
+  
 }
